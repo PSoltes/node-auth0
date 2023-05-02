@@ -6,6 +6,6 @@ const require = createRequire(import.meta.url);
  * @external RestClient
  * {@link https://github.com/ngonzalvez/rest-facade}
  */
-export const ManagementClient = require('./management');
-export const AuthenticationClient = require('./auth');
+export const ManagementClient = require('./management/index.js');
+export const AuthenticationClient = require('./auth/index.js');
 export default { ManagementClient, AuthenticationClient }
